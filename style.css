@@ -364,7 +364,6 @@
 
 footer {
     margin-top: 100px;
-    align-items: center;
     text-align: center;
     height: 100px;
     margin-bottom: 100px;
@@ -377,4 +376,8 @@ footer p{
 }
 footer span{
     color: red;
+}
+hr{
+    width: 80%;
+    margin: auto;
 }
