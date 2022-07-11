@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.company-logo {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.5rem;
+
+}
+
+.menu-items {
+    display: flex;
+    margin-right: 150px;
+}
+
+.menu-items li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu-items li:hover {
+    color: red;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+
+}
+
+
+/***************banner****************/
+.banner-container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.banner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.banner-left {
+    margin-top: 170px;
+    margin-left: 50px;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-text {
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.banner-text2 {
+    font-size: 25px;
+    color: rgb(204, 200, 200);
+    margin: 10px;
+}
+
+.banner-btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.banner-btn:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************/
+
+.title-2 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+
+
+
+
+/****    যেকোন ডিসপ্লে এলিমেন্ট এর জন্য এডটি কাজ করবে    ******/
+/****    যেকোন ডিসপ্লে এলিমেন্ট এর জন্য এডটি কাজ করবে    ******/
+/****    যেকোন ডিসপ্লে এলিমেন্ট এর জন্য এডটি কাজ করবে    ******/
+
+/***************card*******************/
+
+.section-two {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.card-description {
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    box-shadow: 8px 8px 20px gray;
+    margin: 0 auto;
+
+    /****  এখানে টেক্স এলাইন সেন্টার দিলে বক্স এর থেতরের সবাই পাবে, পরে প্যারাগ্রাফ কে আলাদ করে টেক্স এলাইন জাস্টিফাই করত েহবে। এবং মোর অপশন কেউ আলাদা করে স্টাইল করতে হবে, না হলে সেটিও সেন্টার এ চলে আসবে ****/
+    text-align: center;
+    margin-top: 20px;
+    transition: .7s;
+}
+
+.card-description:hover {
+    margin-top: -10px;
+    transition: .7s;
+    border: 2px solid blue;
+}
+
+.card-img {
+    /* text-align: center; */
+
+    /*  card-description এর টেক্স এলাইনি এখানে কাজ করবে  **/
+}
+
+
+.card-img img {
+    width: 100px;
+}
+
+.card-description p {
+    text-align: justify;
+}
+
+.more {
+    text-align: justify
+}
+
+
+
+
+
+/*****************About Section************/
+.sec-about {
+    background-color: rgb(12, 12, 12);
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 680px;
+}
+
+.title-3 {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    /**********ডিভ এর মাঝখানে সকল কন্টেন্ট কে আনার জন্য********/
+    /* align-items: center; */
+}
+
+.about-left {
+    width: 700px;
+
+}
+
+.about-right {
+    margin-top: 10px;
+    width: 700px;
+    color: white;
+}
+
+.about-right h1 {
+    font-size: 40px;
+}
+
+.about-right p {
+    margin-top: 20px;
+    font-size: 25px;
+    color: lightgray;
+}
+
+.about-right ul {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.btn-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.about-img img {
+    width: 250px;
+    height: 500px;
+    transform: skewY(-15deg);
+    margin-top: 80px;
+    padding: 0 20px 0 20px;
+}
+
+.about-img {
+    display: flex;
+}
+
+
+
+/*****************Workout Section**************/
+.workout-container {
+    height: 200px;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    /* background-color: aqua; */
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+}
+
+.workout-title {
+    color: white;
+}
+
+.workout-btn {
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: none;
+    font-size: 17px;
+}
+
+
+
+.workout-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*************Service Card section*******************/
+
+.service-card-sec {
+    display: flex;
+    justify-content: center;
+
+
+    /* justify-content: space-around; */
+    /* margin: 40px auto; */
+}
+
+.servide-card {
+    height: 470px;
+    width: 350px;
+    box-shadow: 10px 10px 20px rgb(31, 30, 30);
+    border-radius: 10px;
+    margin: 0 20px;
+    margin-bottom: 80px;
+}
+
+.ser-img img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.ser-text {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.ser-text h3 {
+    margin-top: 10px;
+    color: red;
+}
+
+.ser-text h2 {
+    margin-top: 10px;
+}
+
+.ser-text h5 {
+    margin-top: 5px;
+}
+
+.ser-fee {
+    margin: 0 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ser-fee a {
+    text-decoration: none;
+    color: red;
+}
+
+.ser-btn {
+    font-size: 16px;
+    border-style: none;
+    background-color: white;
+
+}
+
+
+
+
+/****************Footer******************/
+
+footer {
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 100px;
+}
+footer h2{
+    margin-top: 40px;
+}
+footer p{
+    margin-top: 10px;
+}
+footer span{
+    color: red;
+}
